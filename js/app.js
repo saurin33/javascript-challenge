@@ -11,7 +11,6 @@ function tableDisplay(ufoSightings) {
   });
 }
 
-// clear the table for new data
 function deleteTbody() {
   d3.select("tbody")
     .selectAll("tr")
